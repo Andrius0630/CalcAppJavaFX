@@ -1,16 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="vu.oop.calcappjavafx.CalcController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane styleClass="root-pane" maxHeight="490.0" maxWidth="470.0" minHeight="490.0" minWidth="470.0" prefHeight="490.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vu.oop.calcappjavafx.CalcController">
+   <children>
+      <TextField fx:id="text_field" styleClass="text-field" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="24.0" prefHeight="98.0" prefWidth="439.0" promptText="1+2+3">
+         <font>
+            <Font name="RobotoMono Nerd Font" size="32.0" />
+         </font>
+      </TextField>
+      <FlowPane hgap="5.0" layoutX="14.0" layoutY="142.0" prefHeight="336.0" prefWidth="253.0" vgap="5.0">
+         <children>
+            <Button fx:id="btn_1" mnemonicParsing="false" onAction="#add_1" prefHeight="80.0" prefWidth="80.0" text="1">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_2" mnemonicParsing="false" onAction="#add_2" prefHeight="80.0" prefWidth="80.0" text="2">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_3" mnemonicParsing="false" onAction="#add_3" prefHeight="80.0" prefWidth="80.0" text="3">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_4" mnemonicParsing="false" onAction="#add_4" prefHeight="80.0" prefWidth="80.0" text="4">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_5" mnemonicParsing="false" onAction="#add_5" prefHeight="80.0" prefWidth="80.0" text="5">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_6" mnemonicParsing="false" onAction="#add_6" prefHeight="80.0" prefWidth="80.0" text="6">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_7" mnemonicParsing="false" onAction="#add_7" prefHeight="80.0" prefWidth="80.0" text="7">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_8" mnemonicParsing="false" onAction="#add_8" prefHeight="80.0" prefWidth="80.0" text="8">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_9" mnemonicParsing="false" onAction="#add_9" prefHeight="80.0" prefWidth="80.0" text="9">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_left_bracket" mnemonicParsing="false" onAction="#add_left_bracket" prefHeight="80.0" prefWidth="80.0" text="(">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_0" mnemonicParsing="false" onAction="#add_0" prefHeight="80.0" prefWidth="80.0" text="0">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_right_bracket" mnemonicParsing="false" onAction="#add_right_bracket" prefHeight="80.0" prefWidth="80.0" text=")">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+      <FlowPane hgap="5.0" layoutX="289.0" layoutY="143.0" prefHeight="316.0" prefWidth="167.0" vgap="5.0">
+         <children>
+            <Button fx:id="btn_del" mnemonicParsing="false" onAction="#del_char" prefHeight="80.0" prefWidth="165.0" text="Delete">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_plus" mnemonicParsing="false" onAction="#add_plus" prefHeight="80.0" prefWidth="80.0" text="+">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_mul" mnemonicParsing="false" onAction="#add_mul" prefHeight="80.0" prefWidth="80.0" text="*">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_minus" mnemonicParsing="false" onAction="#add_minus" prefHeight="80.0" prefWidth="80.0" text="-">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_div" mnemonicParsing="false" onAction="#add_div" prefHeight="80.0" prefWidth="80.0" text="/">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_clear" mnemonicParsing="false" onAction="#clear_field" prefHeight="80.0" prefWidth="80.0" text="C">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_result" mnemonicParsing="false" onAction="#get_result" prefHeight="80.0" prefWidth="80.0" text="=">
+               <font>
+                  <Font name="RobotoMono Nerd Font Bd" size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

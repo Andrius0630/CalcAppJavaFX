@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CalcAppJavaFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CalcAppJavaFX_jar</output-path>
+    <root id="archive" name="CalcAppJavaFX.jar">
+      <element id="module-output" name="CalcAppJavaFX" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/controlsfx/controlsfx/11.2.1/controlsfx-11.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kordamp/ikonli/ikonli-javafx/12.3.1/ikonli-javafx-12.3.1.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/fx/libavplugin.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libdecora_sse.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libfxplugins.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libglass.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libglassgtk3.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libgstreamer-lite.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libjavafx_font.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libjavafx_font_freetype.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libjavafx_font_pango.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libjavafx_iio.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libjfxmedia.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libprism_common.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libprism_es2.so" />
+      <element id="file-copy" path="$USER_HOME$/fx/libprism_sw.so" />
+    </root>
+  </artifact>
+</component>
